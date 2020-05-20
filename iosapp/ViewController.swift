@@ -85,7 +85,7 @@ class ViewController: UIViewController {
 
         // Set the Watson credentials for Visual Recognition service from the BMSCredentials.plist
         // If using IAM authentication
-        guard let apiKey = dictionary["visualrecognitionApikey"] as? String else {
+        guard let apiKey = (dictionary["visualRecognition"] as? NSDictionary)?["apikey"] as? String else {
             self.showAlert(.missingCredentials)
             return
         }
