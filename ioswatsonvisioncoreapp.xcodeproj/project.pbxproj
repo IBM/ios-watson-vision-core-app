@@ -19,7 +19,7 @@
 		2DC5F13D1FD609050063B2D5 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5F13C1FD609050063B2D5 /* ResultsTableViewController.swift */; };
 		2DC5F13F1FD6093B0063B2D5 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5F13E1FD6093B0063B2D5 /* ResultsTableViewCell.swift */; };
 		5ABEBAB7A0BB4C57A4252191 /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 697EA78B1AEC448DBEB0278C /* BMSCredentials.plist */; };
-		5C702D79D113C37CA86C96DB /* Pods_iosapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87DA3B4812540A34B9E54AC /* Pods_iosapp.framework */; };
+		E1284CFBD12FE736D9330F56 /* Pods_ioswatsonvisioncoreapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE47E37D988D6ECD5D47461 /* Pods_ioswatsonvisioncoreapp.framework */; };
 		E36AA4E7204DA729008F4719 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36AA4E6204DA729008F4719 /* Utils.swift */; };
 		E3AC1938204126FC00415006 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AC1937204126FC00415006 /* Classification.swift */; };
 		E3B21396203CB06700815E6A /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B21395203CB06700815E6A /* AppError.swift */; };
@@ -42,7 +42,7 @@
 		2D7870C01FE1CF6F0018BFE9 /* PulleyPassthroughScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulleyPassthroughScrollView.swift; sourceTree = "<group>"; };
 		2D7870C21FE1CF910018BFE9 /* PulleyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulleyViewController.swift; sourceTree = "<group>"; };
 		2D7870C41FE1CFDE0018BFE9 /* UIView+constrainToParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+constrainToParent.swift"; sourceTree = "<group>"; };
-		2DBDD2911FCF7FAE004A6DC1 /* iosapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBDD2911FCF7FAE004A6DC1 /* ioswatsonvisioncoreapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ioswatsonvisioncoreapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBDD2941FCF7FAE004A6DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DBDD2961FCF7FAE004A6DC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DBDD29E1FCF7FAE004A6DC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,13 +52,15 @@
 		2DC5F13A1FD608D20063B2D5 /* ImageDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayViewController.swift; sourceTree = "<group>"; };
 		2DC5F13C1FD609050063B2D5 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 		2DC5F13E1FD6093B0063B2D5 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		385694822ECE8990C7BBC400 /* Pods-ioswatsonvisioncoreapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ioswatsonvisioncoreapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ioswatsonvisioncoreapp/Pods-ioswatsonvisioncoreapp.release.xcconfig"; sourceTree = "<group>"; };
+		3BE47E37D988D6ECD5D47461 /* Pods_ioswatsonvisioncoreapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ioswatsonvisioncoreapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C898A82FC1C68D9BB89C5C5 /* Pods-iosapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosapp/Pods-iosapp.release.xcconfig"; sourceTree = "<group>"; };
 		5F8D2CAFB63E443F0CFEF761 /* Pods-iosapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosapp/Pods-iosapp.debug.xcconfig"; sourceTree = "<group>"; };
-		697EA78B1AEC448DBEB0278C /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		697EA78B1AEC448DBEB0278C /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		91766EE38FD45A6DE9FD712E /* Pods-ioswatsonvisioncoreapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ioswatsonvisioncoreapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ioswatsonvisioncoreapp/Pods-ioswatsonvisioncoreapp.debug.xcconfig"; sourceTree = "<group>"; };
 		E36AA4E6204DA729008F4719 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		E3AC1937204126FC00415006 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
 		E3B21395203CB06700815E6A /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
-		E87DA3B4812540A34B9E54AC /* Pods_iosapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C702D79D113C37CA86C96DB /* Pods_iosapp.framework in Frameworks */,
+				E1284CFBD12FE736D9330F56 /* Pods_ioswatsonvisioncoreapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +80,8 @@
 			children = (
 				5F8D2CAFB63E443F0CFEF761 /* Pods-iosapp.debug.xcconfig */,
 				3C898A82FC1C68D9BB89C5C5 /* Pods-iosapp.release.xcconfig */,
+				91766EE38FD45A6DE9FD712E /* Pods-ioswatsonvisioncoreapp.debug.xcconfig */,
+				385694822ECE8990C7BBC400 /* Pods-ioswatsonvisioncoreapp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -85,7 +89,7 @@
 		18587B0A72F55E7735FBCC38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E87DA3B4812540A34B9E54AC /* Pods_iosapp.framework */,
+				3BE47E37D988D6ECD5D47461 /* Pods_ioswatsonvisioncoreapp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,7 +117,7 @@
 		2DBDD2921FCF7FAE004A6DC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DBDD2911FCF7FAE004A6DC1 /* iosapp.app */,
+				2DBDD2911FCF7FAE004A6DC1 /* ioswatsonvisioncoreapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2DBDD2901FCF7FAE004A6DC1 /* iosapp */ = {
+		2DBDD2901FCF7FAE004A6DC1 /* ioswatsonvisioncoreapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DBDD2A61FCF7FAE004A6DC1 /* Build configuration list for PBXNativeTarget "iosapp" */;
+			buildConfigurationList = 2DBDD2A61FCF7FAE004A6DC1 /* Build configuration list for PBXNativeTarget "ioswatsonvisioncoreapp" */;
 			buildPhases = (
 				B8826FF5EC87549CA360AC7C /* [CP] Check Pods Manifest.lock */,
 				2DBDD28D1FCF7FAE004A6DC1 /* Sources */,
@@ -157,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = iosapp;
+			name = ioswatsonvisioncoreapp;
 			productName = "Core ML Vision Discovery";
-			productReference = 2DBDD2911FCF7FAE004A6DC1 /* iosapp.app */;
+			productReference = 2DBDD2911FCF7FAE004A6DC1 /* ioswatsonvisioncoreapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +183,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2DBDD28C1FCF7FAE004A6DC1 /* Build configuration list for PBXProject "iosapp" */;
+			buildConfigurationList = 2DBDD28C1FCF7FAE004A6DC1 /* Build configuration list for PBXProject "ioswatsonvisioncoreapp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -192,7 +196,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DBDD2901FCF7FAE004A6DC1 /* iosapp */,
+				2DBDD2901FCF7FAE004A6DC1 /* ioswatsonvisioncoreapp */,
 			);
 		};
 /* End PBXProject section */
@@ -218,7 +222,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iosapp/Pods-iosapp-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ioswatsonvisioncoreapp/Pods-ioswatsonvisioncoreapp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BMSAnalyticsAPI/BMSAnalyticsAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/BMSCore/BMSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/IBMWatsonRestKit/RestKit.framework",
@@ -235,7 +239,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iosapp/Pods-iosapp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ioswatsonvisioncoreapp/Pods-ioswatsonvisioncoreapp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B8826FF5EC87549CA360AC7C /* [CP] Check Pods Manifest.lock */ = {
@@ -249,7 +253,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iosapp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ioswatsonvisioncoreapp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -404,7 +408,7 @@
 		};
 		2DBDD2A71FCF7FAE004A6DC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F8D2CAFB63E443F0CFEF761 /* Pods-iosapp.debug.xcconfig */;
+			baseConfigurationReference = 91766EE38FD45A6DE9FD712E /* Pods-ioswatsonvisioncoreapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -415,8 +419,8 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/iosapp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-ML";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.ioswatsonvisioncoreapp;
+				PRODUCT_NAME = ioswatsonvisioncoreapp;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -424,7 +428,7 @@
 		};
 		2DBDD2A81FCF7FAE004A6DC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C898A82FC1C68D9BB89C5C5 /* Pods-iosapp.release.xcconfig */;
+			baseConfigurationReference = 385694822ECE8990C7BBC400 /* Pods-ioswatsonvisioncoreapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -435,8 +439,8 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/iosapp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-ML";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.ioswatsonvisioncoreapp;
+				PRODUCT_NAME = ioswatsonvisioncoreapp;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2DBDD28C1FCF7FAE004A6DC1 /* Build configuration list for PBXProject "iosapp" */ = {
+		2DBDD28C1FCF7FAE004A6DC1 /* Build configuration list for PBXProject "ioswatsonvisioncoreapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DBDD2A41FCF7FAE004A6DC1 /* Debug */,
@@ -454,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DBDD2A61FCF7FAE004A6DC1 /* Build configuration list for PBXNativeTarget "iosapp" */ = {
+		2DBDD2A61FCF7FAE004A6DC1 /* Build configuration list for PBXNativeTarget "ioswatsonvisioncoreapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DBDD2A71FCF7FAE004A6DC1 /* Debug */,
