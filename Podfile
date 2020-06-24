@@ -2,13 +2,13 @@
 platform :ios, '12.0'
 
 target 'ioswatsonvisioncoreapp' do
-    pod 'BMSCore', '~> 2.0'
+    pod 'BMSCore', '~> 2.6.0'
 
     # Comment this line if you're not using Swift and don't want to use dynamic frameworks
     use_frameworks!
 
     pod "SwiftSpinner", '~> 1.6.0'
-    pod 'IBMWatsonVisualRecognitionV3', '~> 1.3.1'
+    pod 'IBMWatsonVisualRecognitionV3', '~> 2.3.0'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|
