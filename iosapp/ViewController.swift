@@ -145,7 +145,7 @@ class ViewController: UIViewController {
         ]
 
         // Display data
-        displayResults(defaults)
+        displayResults(defaults as! [ClassResult])
         displayImage(image: UIImage(named: "usb")!)
     }
 
@@ -164,7 +164,7 @@ class ViewController: UIViewController {
         print("Attempting to use a local Core ML model.")
 
         /// If a remote classifier does not exist, try to use a local one.
-        guard let localModels = try? self.visualRecognition?.listLocalModels(),
+        guard let localModels = ((try? self.visualRecognition?.listLocalModels()) as [String]??),
               let classifierID = localModels?.first else {
 
             self.showAlert(.installingTrainingModel)

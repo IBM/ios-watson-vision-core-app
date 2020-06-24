@@ -17,7 +17,7 @@ This IBM Cloud Mobile Starter will showcase Core ML and the Watson Visual Recogn
 ### Requirements
 * iOS 12.0+
 * Xcode 10+
-* Swift 4.2+
+* Swift 5+
 
 ### Configuration
 * [Visual Recognition Model Training](#visual-recognition-model-training)
